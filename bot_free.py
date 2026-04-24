@@ -9,7 +9,7 @@ from telegram.ext import (
 )
 
 # ─── CONFIG — ONLY CHANGE THIS ─────────────────────────────────────────────────
-TELEGRAM_TOKEN = "8782200688:AAGRYOVMnb4yUjPq2DF8onEoV8iQlhM4oMY"   # ← Paste your token here
+TELEGRAM_TOKEN = "TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")"   # ← Paste your token here
 
 BOT_NAME       = "StockBot Pro"
 FREE_LIMIT     = 10   # searches per day for free users (set high for testing)
