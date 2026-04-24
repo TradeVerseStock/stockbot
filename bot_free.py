@@ -1,3 +1,4 @@
+import os
 import logging
 import sqlite3
 from datetime import datetime
@@ -9,7 +10,7 @@ from telegram.ext import (
 )
 
 # ─── CONFIG — ONLY CHANGE THIS ─────────────────────────────────────────────────
-TELEGRAM_TOKEN = "TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")"   # ← Paste your token here
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 BOT_NAME       = "StockBot Pro"
 FREE_LIMIT     = 10   # searches per day for free users (set high for testing)
