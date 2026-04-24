@@ -1,6 +1,4 @@
 python-telegram-bot==20.7
 yfinance==0.2.48
 pandas==2.2.3
-pandas-ta==0.4.71b0
-razorpay==1.4.1
 requests==2.31.0
